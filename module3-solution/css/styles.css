@@ -1,0 +1,60 @@
+body {
+	font-size: 20px;
+	color: white;
+	background-color: #7ed6df;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+/* HEADER */
+#header-navigation {
+	background-color: #eb4d4b;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand p {
+	color: #32ff7e;
+	font-size: 25px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#navigation-list a {
+	color: #32ff7e;
+	text-align: center;
+}
+
+#navigation-list a:hover {
+	background-color: #3dc1d3;
+}
+/* END HEADER */
+
+/* Section */
+#front {
+	margin-bottom: 30px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: #f8a5c2;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+/* End Section */
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
